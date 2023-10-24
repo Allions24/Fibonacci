@@ -12,11 +12,11 @@ return fibonacci(num - 1) + fibonacci(num - 2);
 int main() 
 {     
 int Elementos;     
-printf("Cuantos elementos de la serie de Fibonacci: \n");    
+printf("NUmero de elementos de la serie de Fibonacci: \n");    
 scanf("%d", &Elementos);     
 	if (Elementos <= 0) 
 	{         
-	printf("El número de elementos debe ser mayor a 0 \n");         
+	printf("El nÃºmero de elementos debe ser mayor a 0 \n");         
 	return 1;    
  	}     
 int serieFibonacci[Elementos];     
